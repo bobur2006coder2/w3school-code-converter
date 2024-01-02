@@ -1,4 +1,9 @@
 let getAllCodes = document.getElementById("getAllCodes");
+// let toggleBtn=document.querySelector("#toggle");
+// toggleBtn.style.padding='10px 20px';
+// toggleBtn.style.borderRadius='10px 20px';
+// toggleBtn.style.float='right';
+// toggleBtn.style.border='1px solid green';
 function helloWorld() {
     // HTML codes convert .
     window.document.all[7].ownerDocument.getElementsByTagName('iframe')[0].contentWindow.document.getElementsByTagName("frame")[1].contentDocument.getElementById('getAllCodes').innerHTML = window.document.all[7].ownerDocument.getElementsByTagName('iframe')[0].contentWindow.document.getElementsByTagName("frame")[0].contentDocument.getElementById("allCodes").innerText;
